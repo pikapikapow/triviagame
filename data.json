@@ -1,0 +1,122 @@
+[
+    {
+        "category": "Science",
+        "question": "What do plants need to make food?",
+        "answer": "Sunlight",
+        "options": ["Water", "Sunlight", "Soil", "Air"]
+    },
+    {
+        "category": "Math",
+        "question": "What is 5 + 3?",
+        "answer": "8",
+        "options": ["6", "7", "8", "9"]
+    },
+    {
+        "category": "Geography",
+        "question": "Which ocean is the largest?",
+        "answer": "Pacific Ocean",
+        "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"]
+    },
+    {
+        "category": "History",
+        "question": "Who was the first President of the United States?",
+        "answer": "George Washington",
+        "options": ["Abraham Lincoln", "George Washington", "Thomas Jefferson", "John Adams"]
+    },
+    {
+        "category": "Literature",
+        "question": "Who wrote 'The Cat in the Hat'?",
+        "answer": "Dr. Seuss",
+        "options": ["J.K. Rowling", "Dr. Seuss", "Roald Dahl", "Eric Carle"]
+    },
+    {
+        "category": "Animals",
+        "question": "What animal is known as 'man's best friend'?",
+        "answer": "Dog",
+        "options": ["Cat", "Dog", "Rabbit", "Parrot"]
+    },
+    {
+        "category": "Math",
+        "question": "What is the shape of a basketball?",
+        "answer": "Sphere",
+        "options": ["Square", "Rectangle", "Sphere", "Triangle"]
+    },
+    {
+        "category": "Science",
+        "question": "What gas do we breathe in?",
+        "answer": "Oxygen",
+        "options": ["Carbon Dioxide", "Nitrogen", "Oxygen", "Hydrogen"]
+    },
+    {
+        "category": "Music",
+        "question": "What musical instrument has keys?",
+        "answer": "Piano",
+        "options": ["Drums", "Guitar", "Piano", "Flute"]
+    },
+    {
+        "category": "Sports",
+        "question": "What sport is played on a field with a goal?",
+        "answer": "Soccer",
+        "options": ["Basketball", "Soccer", "Baseball", "Tennis"]
+    },
+    {
+        "category": "Math",
+        "question": "What is 10 - 4?",
+        "answer": "6",
+        "options": ["5", "6", "7", "8"]
+    },
+    {
+        "category": "Nature",
+        "question": "What do bees make?",
+        "answer": "Honey",
+        "options": ["Wax", "Honey", "Nectar", "Pollen"]
+    },
+    {
+        "category": "Geography",
+        "question": "What continent do we live on?",
+        "answer": "North America",
+        "options": ["South America", "North America", "Asia", "Africa"]
+    },
+    {
+        "category": "Technology",
+        "question": "What device do we use to call someone?",
+        "answer": "Phone",
+        "options": ["Computer", "Tablet", "Phone", "Television"]
+    },
+    {
+        "category": "Art",
+        "question": "What do you use to draw?",
+        "answer": "Pencil",
+        "options": ["Brush", "Pencil", "Crayon", "Marker"]
+    },
+    {
+        "category": "Food",
+        "question": "What fruit is known for keeping the doctor away?",
+        "answer": "Apple",
+        "options": ["Banana", "Orange", "Apple", "Grapes"]
+    },
+    {
+        "category": "Transportation",
+        "question": "What do you ride on to go to school?",
+        "answer": "Bus",
+        "options": ["Car", "Bike", "Bus", "Train"]
+    },
+    {
+        "category": "Health",
+        "question": "What is important for strong bones?",
+        "answer": "Calcium",
+        "options": ["Iron", "Calcium", "Vitamin C", "Fiber"]
+    },
+    {
+        "category": "Environment",
+        "question": "What do we call the places where animals live?",
+        "answer": "Habitats",
+        "options": ["Habitats", "Homes", "Dens", "Nests"]
+    },
+    {
+        "category": "Weather",
+        "question": "What do we call frozen rain?",
+        "answer": "Sleet",
+        "options": ["Rain", "Snow", "Sleet", "Hail"]
+    }
+]
