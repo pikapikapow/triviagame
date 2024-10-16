@@ -1,3 +1,6 @@
+let singleplayer = document.getElementById("singlebtn");
+let doubleplayer = document.getElementById("doublebtn");
+
 fetch("data.json")
   .then((response) => response.json())
   // .then((data) => console.log(data));
@@ -24,3 +27,5 @@ function displayQuestions(data) {
     container.appendChild(questionDiv);
   });
 }
+
+singleplayer.addEventListener("click");

@@ -1,0 +1,44 @@
+* {
+    font-family: sans-serif;
+    
+}
+
+.title {
+    position: relative;
+    display: block;
+    color: white;
+    top: 150px;
+    font-size: 100px;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    position: relative;
+    padding: 35px;
+    border: none;
+    background: rgb(233, 244, 118);
+    top: 200px;
+    border-radius: 20px;
+    font-size: 25px;
+    margin: 50px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.image {
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
