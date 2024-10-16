@@ -16,12 +16,10 @@ function displayQuestions(data) {
             <h3>${data[randomquestion].category}</h3>
             <p>Question: ${data[randomquestion].question}</p>
             <p>Options:</p>
-            <ul>
                 ${data[randomquestion].options
-                  .map((option) => `<li>${option}</li>`)
+                  .map((option) => `<button>${option}</button>`)
                   .join("")}
-            </ul>
-            <p>Answer: ${data[randomquestion].answer}</p>
+            <button> Next Question </button>
         `;
 
   container.appendChild(questionDiv);
