@@ -6,23 +6,25 @@ fetch("data.json")
 // fetchData();
 
 function displayQuestions(data) {
+  const randomquestion = Math.floor(Math.random() * data.length);
   const container = document.getElementById("questions-container");
-  data.forEach((item) => {
-    const questionDiv = document.createElement("div");
-    questionDiv.classList.add("question");
 
-    questionDiv.innerHTML = `
-            <h3>${item.category}</h3>
-            <p>Question: ${item.question}</p>
+  const questionDiv = document.createElement("div");
+  questionDiv.classList.add("question");
+
+  questionDiv.innerHTML = `
+            <h3>${data[randomquestion].category}</h3>
+            <p>Question: ${data[randomquestion].question}</p>
             <p>Options:</p>
             <ul>
-                ${item.options.map((option) => `<li>${option}</li>`).join("")}
+                ${data[randomquestion].options
+                  .map((option) => `<li>${option}</li>`)
+                  .join("")}
             </ul>
-            <p>Answer: ${item.answer}</p>
+            <p>Answer: ${data[randomquestion].answer}</p>
         `;
 
-    container.appendChild(questionDiv);
-  });
+  container.appendChild(questionDiv);
 }
 
 function sendOff() {
