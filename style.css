@@ -7,8 +7,9 @@
     position: relative;
     display: block;
     color: white;
-    top: 150px;
+    top: 130px;
     font-size: 100px;
+    left:0;
 }
 
 .container {
@@ -24,10 +25,11 @@
     padding: 35px;
     border: none;
     background: rgb(233, 244, 118);
-    top: 200px;
+    top: 90px;
     border-radius: 20px;
-    font-size: 25px;
+    font-size: 20px;
     margin: 50px;
+    left: 5%;
 }
 
 .button:hover {
@@ -41,4 +43,12 @@
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.txt {
+    position: relative;
+    color: white;
+    top: 120px;
+    font-size: 40px;
+    left: 120px;
 }

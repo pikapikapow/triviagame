@@ -13,11 +13,10 @@ function displayQuestions(data) {
   questionDiv.classList.add("question");
 
   questionDiv.innerHTML = `
-            <h3>${data[randomquestion].category}</h3>
-            <p>Question: ${data[randomquestion].question}</p>
-            <p>Options:</p>
+            <h3 class= "title">${data[randomquestion].category}</h3>
+            <p class = "txt" >Question: ${data[randomquestion].question}</p> 
                 ${data[randomquestion].options
-                  .map((option) => `<button>${option}</button>`)
+                  .map((option) => `<button class= "button">${option}</button>`)
                   .join("")}
             <button> Next Question </button>
         `;
